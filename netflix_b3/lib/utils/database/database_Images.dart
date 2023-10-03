@@ -44,9 +44,9 @@ List movies = [
 
 class Database1 {
   static List userimg1=[
-    "assets/images/cursole/36 days of type & Poster everyday _ Poster Collection.jpeg",
-    "assets/images/cursole/Alternative Movie Posters vol_2.jpeg",
-    "assets/images/cursole/Concept Art Projects.jpeg",
-    "assets/images/cursole/Pirates of the Carribbean 4 - One Sheet #2 Poster and Poster Mount Bundle.jpeg"
+    "https://th.bing.com/th/id/OIP.iUuKofalq-s9wS_kfq9e8QHaFj?w=226&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    "https://th.bing.com/th/id/OIP.G-2Q6Qo4uqjpTCd07OXTYgHaK-?w=202&h=300&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    "https://th.bing.com/th/id/OIP.puHEIVj0RDfvhXRSiWVVkQHaK-?w=202&h=300&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+
   ];
 }

@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
               Stack(
                 children: [
                   CarouselSlider(items:List.generate(Database1.userimg1.length, (index) =>Container(height: 415,width: 424,
-                  child: Image.asset(Database1.userimg1[index] as String),)),
+                  child: Image.network(Database1.userimg1[index] as String),)),
               
                    options: CarouselOptions(
                     scrollDirection: Axis.horizontal,
@@ -53,11 +53,11 @@ class HomeScreen extends StatelessWidget {
                         SizedBox()
                       ],
                     ),
-                    SizedBox(height: 130,),
+                    SizedBox(height: 180,),
                     
                     Text(
                       "#2 Nigiria today",
-                      style: TextStyle(color: Colors.white, fontSize: 18),
+                      style: TextStyle(color: Colors.white, fontSize: 10),
                     )
                   ],
                 ),
